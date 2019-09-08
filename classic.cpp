@@ -1,4 +1,5 @@
-class classic
+ #include "adt.cpp"
+class classic :public adt
 {
 private:
     /* data */
@@ -9,7 +10,7 @@ private:
 public:
     classic(/* args */);
     ~classic();
-    virtual int miembro_f()
-    {
-    }
+    virtual int miembro_f();
+
+    
 };
