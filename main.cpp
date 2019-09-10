@@ -1,6 +1,6 @@
 //main.cpp
 #include <iostream>
-#include "classic.cpp"
+#include "classic.h"
 int main()
 {
 
