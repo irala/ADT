@@ -15,4 +15,11 @@ public:
     virtual int miembro_f() override;
 
     virtual std::string get_name();
+    
+    using adt::random_number;
+
+    int func(){
+       int number= random_number();
+       return number;
+    }
 };

@@ -1,6 +1,7 @@
 #include <string>
 class interface
 {
+    
     //no tiene estados
 public:
     //interfaces no tienen que tener constructor ni destructor

@@ -2,7 +2,7 @@
 #include "adt.h"
 
 // Provide implementation for the first method
-std::string adt::get_name() 
+std::string adt::get_name()
 {
     // Your implementation
     name = "Bimo";
@@ -23,4 +23,9 @@ int adt::get_age()
     // Your implementation
     age = 1;
     return age;
+}
+int adt::random_number()
+{
+    int random = rand() % 10 + 1;
+    return random;
 }
