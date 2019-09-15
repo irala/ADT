@@ -23,3 +23,9 @@ public:
        return number;
     }
 };
+
+class classic2 : public adt{
+    virtual int miembro_f() override {
+        return 1;
+    }
+};
